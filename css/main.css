@@ -1,0 +1,47 @@
+/*:root = faz referencia a raiz do documento html
+dentro pode ser inclusas propriedades que são repetidas 
+no decorrer da formaação, isso através de variaveis
+a partir das variaveis basta usa-las onde deseja o que atributo faz
+*/
+:root {
+  --title-color: #322153;
+  --primary-color: #34cb79;
+}
+
+
+/*seletor *asterisco* referencia todos os seletores*/
+* {
+  /*tirando espaços externos e internos de toda a pagina*/
+  margin: 0;
+  padding: 0;
+  
+  /*para que o tamanho da caixa não ultrapasse a borda
+  por padrão o padding ocupa todo o preenchimento da sua caixa (padrão = content-box)
+  então, o box-sizing: border-box = limita o tamanho até a borda
+  obs: lembrando que no html a borda vem em volta/depois do padding*/
+  box-sizing: border-box;
+}
+
+html {
+  /*font-family para todo html*/
+  /*obs: quando temos apenas 1 tipo de font o nome não precisa estar entre aspas simples ''*/
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  /*cor de fundo de toda pagina*/
+  background: #f0f0f5;
+  /*deixar a font mais gostosa de se ver - n entendi nada*/
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  /*removendo o sublinhado de todo link encontrado na pagina*/
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /*padronizando cor e font-family de titulos h1-2-3-4-5-6*/
+  font-family: Ubuntu, sans-serif;
+  color: var(--title-color);
+}

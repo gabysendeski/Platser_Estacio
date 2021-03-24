@@ -1,0 +1,10 @@
+.horizontal{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+}
+img{
+    padding: 1em 9em 0.5em;
+
+}

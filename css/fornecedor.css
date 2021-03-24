@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.header img {
+    width: 2vw;
+    height: 5vh;
+    margin-right: 10px;
+}
+
+section {
+    margin: 40px auto;
+    width: 80%;
+}
+
+section nav {
+    background: #34cb79;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+nav button {
+    padding: 6px 10px;
+    width: fit-content;
+    background: var(--title-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form, fieldset {
+    margin-top: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column
+}
+
+fieldset label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--title-color);
+    margin-left: 10px;
+}
+
+fieldset input {
+    margin-top: 1px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 14px;
+    border: none;
+}
+
+.endereco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.endereco .rua {
+    width: 70%;
+}
+.endereco .num {
+    width: 25%;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn button {
+    width: 140px;
+    height: 30px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+}

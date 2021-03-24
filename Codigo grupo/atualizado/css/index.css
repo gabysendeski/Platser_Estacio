@@ -1,0 +1,58 @@
+.index-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.index-header #logo {
+    width: 90px;
+    height: 90px;
+}
+
+.index-introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.index-introducao h2 {
+    margin-bottom: 20px;
+}
+.horizontal {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.horizontal button {
+    width: 140px;
+    height: 30px;
+    background: #34cb79;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 18px;
+}
+
+.index-body #motoboy.png {
+    width: 90px;
+    height: 90px;
+}
+
+.index-body #diarista.png {
+
+    width:90px;
+    height: 90px;
+
+}
